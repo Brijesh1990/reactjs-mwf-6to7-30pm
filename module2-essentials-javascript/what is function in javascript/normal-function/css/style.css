@@ -1,0 +1,26 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: lightgray;
+}
+.parent 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.box1,.box2,.box3,.box4 
+{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    margin: 5px;
+    padding: 25px;
+    font-size: 20px;
+}
