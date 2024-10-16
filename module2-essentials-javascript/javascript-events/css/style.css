@@ -1,0 +1,27 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.main-content 
+{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 25px;
+  margin-top: 10%;
+  display: none;  
+}
+#loader 
+{
+width: 500px;
+height: 300px;    
+position: absolute;
+left: 35%;
+top: 15%;
+background: url('../images/runner.gif') no-repeat;
+background-size: 500px 300px;    
+}
+

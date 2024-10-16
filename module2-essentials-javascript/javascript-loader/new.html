@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 100px;
+            line-height: 120px;
+            color: black;
+            text-align: center;
+        }
+        p {
+        font-size: 20px;
+        line-height: 32px;
+        color: aqua;
+        text-align: center;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        #loader {
+            position: absolute;
+            left: 0;
+            z-index: 10;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #e4e4e4;
+        }
+    </style>
+</head>
+<body onload="timer()">
+<div id="loader"></div>
+    <div id="main">
+    <h1 class="heading">  hellow</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, optio laudantium et amet illo ex necessitatibus voluptatem atque laborum quos esse distinctio quam, architecto dignissimos! Minima qui temporibus corporis laudantium!</p>
+</div>
+<script>
+    var a;
+    function timer () {
+        a=setTimeout("display()", 2500)
+    }
+    function display () {
+        document.getElementById("loader").style="display:none";
+        document.getElementById("main");
+    }
+</script>
+</body>
+</html>
