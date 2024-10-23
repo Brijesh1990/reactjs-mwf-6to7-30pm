@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .cart 
+        {
+            width: 70%;
+            height: auto;
+            margin: auto;
+            margin-top: 5%;
+        }
+    </style>
+
+    <script>
+        function display()
+        {
+            var p=document.getElementById("price").value;
+            var q=document.getElementById("qty").value;
+            var t=p*q;
+            document.getElementById("tot").innerHTML=+t;
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="cart">
+        <table width="100%">
+            <tr align="center">
+                <td>1001</td>
+                <td><img src="https://images.jdmagicbox.com/quickquotes/images_main/guru_1200_gt_e1200y_orange_146720180803167200.jpg" style="width: 85px; height: 85px;" /></td>
+                <td>Samsung Guru</td>
+                <td><input type="number" id="qty" min="1" max="10" value="1" onchange="display()"></td>
+                <td>Rs.<input type="text" id="price" value="1150" style="border: none;" readonly /></td>
+                
+            </tr>
+
+            <tr>
+                <td colspan="6" align="right">
+                    <h1 style="background-color: black; color: white;">Rs. <label id="tot">1150</label></h1>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

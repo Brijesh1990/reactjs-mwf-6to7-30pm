@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function display()
+        {
+            var a=parseInt(prompt('Enter a vlaues :'));
+            var b=parseInt(prompt('Enter b vlaues :'));
+            var c=a+b;
+            document.getElementById("result").innerHTML="The additions of numbers is :"+c;
+        }
+    </script>
+</head>
+<body>
+   <p id="result"></p>
+    <button type="button" onkeypress="display()">Key press here</button>
+    
+</body>
+</html>
