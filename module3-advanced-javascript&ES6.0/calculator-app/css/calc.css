@@ -46,9 +46,17 @@ background-color: skyblue;
 }
 @media only screen and (max-width:580px)
 {
+#calculator 
+{
+width: 90% !important;
+height: auto !important;
+margin: 0 !important;
+padding: 0 !important;   
+margin-top: 3% !important; 
+}    
 .calc input 
 {
-width: 93% !important;
+width: 90% !important;
 height: auto !important;
 padding: 14px !important;
 border: solid 1px !important;
@@ -59,7 +67,7 @@ color: white;
 }
 ::placeholder
 {
-    color: white !important;
+color: white !important;
 }
 #btn 
 {
