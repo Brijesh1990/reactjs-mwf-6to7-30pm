@@ -1,0 +1,34 @@
+{
+    
+    "users":[
+      
+         {
+           "id":1001,
+           "name":"raj singh",
+           "age":34,
+           "salary":89500,
+           "address":"150 feet ing road rajkot"
+         },
+
+          {
+           "id":1002,
+           "name":"kriti singh",
+           "age":30,
+           "salary":129500,
+           "address":"150 feet ing road rajkot"
+         },
+
+
+         {
+            "id":1002,
+            "name":"vivek singh",
+            "age":30,
+            "salary":129500,
+            "address":"150 feet ing road rajkot"
+          }
+    
+    
+    ]
+
+
+}
